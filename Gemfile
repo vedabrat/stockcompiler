@@ -13,8 +13,11 @@ gem 'rails', '~> 5.1.4'
 gem 'puma', '~> 3.7'
 # for heroku compatibility
 gem 'pg'
-# stock compatibility
+# stock API - might be useless when mechanize kicks its ass
 gem 'stock_quote'
+#mechanize web scraper
+gem 'mechanize'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
