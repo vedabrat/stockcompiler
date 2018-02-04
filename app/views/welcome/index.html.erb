@@ -23,17 +23,12 @@ Stock <div id="stockname">WGO</div>
 <br> Recent_quarter_date <%= stocks.f_recent_quarter_date %></br>
 <br> Annlyal_date <%= stocks.f_annlyal_date %></br>
 <br> f_ttm_date <%= stocks.f_ttm_date %></br>
-<br> financials <%= stocks.financials %></br>
-
-                            <br> 2017 revenue <%= stocks.financials[0]["f_figures"][0]["annual"] %></br>
-                            <br> 2016 revenue <%= stocks.financials[0]["f_figures"][0]["ttm"] %></br>
-                            <br> 2015 revenue <%= StockQuote::Stock.history(thestock, "01-01-2015").financials %></br>
-
+<br> financials <br />
 <br> kr_recent_quarter_date <%= stocks.kr_recent_quarter_date %></br>
 <br> kr_annual_date <%= stocks.kr_annual_date %></br>
 <br> kr_ttm_date <%= stocks.kr_ttm_date %></br>
 <br> c <%= stocks.c %></br>
-                                                                            <br> l <%= stocks.l %></br>
+<br> l <%= stocks.l %></br>
 <br> cp <%= stocks.cp %></br>
 <br> ccol <%= stocks.ccol %></br>
 <br> op <%= stocks.op %></br>
@@ -50,7 +45,7 @@ Stock <div id="stockname">WGO</div>
 <br> eps <%= stocks.eps %></br>
 <br> dy <%= stocks.dy %></br>
 <br> ldiv <%= stocks.ldiv %></br>
-                                                <br> shares <%= stocks.shares %></br>
+<br> shares <%= stocks.shares %></br>
 <br> instown <%= stocks.instown %></br>
 <br> eo <%= stocks.eo %></br>
 <br> sid <%= stocks.sid %></br>
